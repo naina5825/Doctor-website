@@ -1,0 +1,280 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin:0px;
+    padding:0px;
+}
+
+.main{
+    background:url("../images/hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    color: #fff;
+    background-attachment:fixed;
+}
+
+.navbar-default {
+    background:none;
+    border:none;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-brand:hover{
+    color:rgb(5, 240, 169);
+}
+
+.navbar-default .navbar-nav li a{
+    color: #fff;
+}
+
+
+.navbar-default .navbar-nav li a:hover{
+    color: rgb(5, 240, 169);
+}
+
+.icon-search{
+     margin-top:17px;
+     margin-left:5px;
+}
+
+/*start containt*/
+.containt{
+        padding:60px 10px;
+}
+.containt h1{
+    padding:10px 0px;
+    text-transform: capitalize;
+    font-size:45px;
+    font-family:Adobe Heiti Std;
+}
+.containt p{
+    padding:10px 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.containt button{
+    color: rgb(5, 240, 169);
+    border: none;
+}
+/*close containt*/
+
+/* Department-part start*/
+.Department-part{
+    margin:60px 0px;
+    text-align:center;
+    padding:20px 0px;
+}
+
+.Department-part p{
+        padding:0px 0px 40px 0px;
+}
+.Department-part button{
+    color: #fff;
+    background-color:rgb(5, 240, 169) ;
+    margin:20px 0px 80px 0px;
+  
+}
+.image-part{
+    background-color:rgb(5, 240, 169) ;
+    height:150px;
+    width:150px;
+    border-radius:100%;
+    margin:0 auto;
+}
+.four-part h1{
+    padding:15px 0px;
+}
+
+.four-part h5{
+        padding:5px 5px;
+    
+}
+.four-part{
+    padding:30px 0px;
+}
+
+.image-part img{
+    height:100px;
+    width:100px;
+    margin-top: 25px;
+    
+}
+/* Department-part close */
+
+/*start about-part*/
+.about-image img{
+        width:100%;
+        border-radius:35px;
+}
+.about-right{
+    padding:40px 0px 0px 0px;
+    text-transform: capitalize;
+}
+
+.about-right h1{
+    text-transform:uppercase;
+    padding:20px 0px 20px 0px;
+}
+.about-right p{
+    line-height:25px;
+}
+.about-right .btn{
+    margin:20px 0px 20px 0px;
+}
+/*close about-part*/
+
+/*start doctor-part*/
+.doctor-part{
+    background-color:rgb(3, 134, 3);
+    width:100%;
+    height:100%;
+    margin:100px 0px 0px 0px;
+    text-transform: capitalize;  
+    text-align: center;
+}
+
+
+.doctor-image img{
+    width:100%;
+    border-radius:20px 20px 0px 0px;
+}
+.doctor-image{
+    background-color: #fff;
+    border-radius:20px;
+    padding:0px 0px 20px 0px;
+}
+
+.doctor-part .btn{
+        margin:30px 0px 70px 0px;
+}
+
+.doctor-containt{
+    color: #fff;
+    padding:30px 0px;
+}
+.doctor-containt h1{
+        padding:15px 0px;
+}
+
+/*close doctor-part*/
+
+/*start form-part*/
+.form-part{
+    padding:50px 0px;
+}
+.form-part  h1{
+    padding:0px 0px 20px 0px;
+}
+.form-part .btn{
+      width:100%;
+}
+
+.map-part{
+   
+    margin-top:70px;
+}
+/*close form-part*/
+
+/*start carousel*/
+.item img{
+    width: 300px;
+    height:300px;
+    border-radius: 50%;
+    margin:0 auto;
+}
+.carousel{
+    text-align: center;
+}
+
+.carousel h1{
+    text-align: center;
+    padding:30px 0px 50px 0px;
+}
+.carousel .fa{
+    font-size:25px;
+}
+
+
+
+.carousel .left-icon{
+    background-color:rgb(5, 240, 169);
+    color: #fff;
+    padding:10px 15px;
+    margin:25px 0px;
+    cursor: pointer;
+}
+
+/*close carousel*/
+
+/*start footer-part*/
+.footer-part .row {
+    margin-right:0px; 
+    margin-left:0px;
+}
+.footer-part{
+    background-color: green;
+    color: #fff;
+    line-height:25px;
+    padding:25px 0px;
+    
+}
+
+.footer-part h1{
+    padding:10px 0px 20px 0px;
+}
+
+
+.footer-part .btn{
+    width:70%;
+}
+.footer{
+    padding:20px 0px 10px 0px;
+}
+
+.footer-first{
+        
+        padding:35px 0px;
+}
+/*close footer-part */
+
+
+/*start Media-queiry*/
+@media only screen and (max-width:786px){
+        .containt h1{
+            font-size:25px; 
+            line-height: 35px;
+        }
+        .containt p{
+            font-size:12px;
+        }
+        .icon-search{
+            margin-left: 20px;
+        }
+        .doctor-img-part{
+            margin: 30px 0px;
+        }
+        
+}
+
+@media only screen and (max-width:1100px){
+            .about-right{
+                padding:20px 0px;
+            }
+            .about-right p{
+                    line-height:20px;
+            }
+            .about-right h1{
+                    padding:10px 0px;
+            }
+
+}
+
+
+/*close Media-queiry*/
+
+
